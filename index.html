@@ -1,0 +1,1516 @@
+<html lang="en" class="dark" style="color-scheme: dark">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://sniper-radar-pwa.vercel.app/fav.svg" />
+    <link rel="manifest" href="json/manifest.json" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://sniper-radar-pwa.vercel.app/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://sniper-radar-pwa.vercel.app/favicon-16x16.png"
+    />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="mask-icon" href="icon512_maskable.png" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style2.css" rel="stylesheet" />
+    <title>Watcher AI</title>
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/nodes/0.DJEbrfuE.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/scheduler.DzCAVM60.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/index.DwYoDg2H.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/stores.fF1QwH90.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/entry.SlVfifYU.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/control.hohtrmds.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/progress.qkLjT_E0.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/separator.Df8yHFeK.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/index.CQsdq6w9.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/events.CmfBQBaE.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/nodes/1.waplhUm6.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/nodes/2.ko6N8qwz.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/moment.BSLQQzQO.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://sniper-radar-pwa.vercel.app/_app/immutable/chunks/input.78UptVJ6.js"
+    />
+  </head>
+
+  <body data-sveltekit-preload-data="hover" class="dark">
+    <div style="display: contents">
+      <div
+        class="flex flex-row flex-wrap md:flex-nowrap justify-between w-full p-5 gap-1 md:gap-0"
+      >
+        <div class="flex items-center justify-between w-full">
+          <div class="flex flex-row items-center gap-2">
+            <a href="/" target="_self"
+              ><img src="Logo_BPN.png" style="width: 100px;" alt=""
+            /></a>
+          </div>
+          <button
+            aria-haspopup="dialog"
+            aria-expanded="false"
+            type="button"
+            data-melt-dialog-trigger=""
+            data-dialog-trigger=""
+            class="items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 flex md:hidden"
+          >
+            <h1>Login</h1>
+          </button>
+        </div>
+        <div class="flex flex-row items-center justify-end w-full">
+          <button
+            aria-controls="acryKbxLRu"
+            aria-expanded="false"
+            data-state="closed"
+            id="UyY1FLY4xK"
+            tabindex="0"
+            data-melt-dropdown-menu-trigger=""
+            data-menu-trigger=""
+            type="button"
+            class=""
+          >
+            <button
+              type="button"
+              tabindex="0"
+              class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 gap-2"
+              data-button-root=""
+            >
+              <h1>🍌 Banana</h1>
+              <i class="bi bi-caret-down"></i>
+            </button>
+          </button>
+          <a
+            href="/pnl-scanner"
+            tabindex="0"
+            class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 gap-2"
+            data-button-root=""
+            ><h1>PnL Scanner</h1>
+            <i class="bi bi-person-lines-fill"></i
+          ></a>
+          <div
+            role="none"
+            aria-orientation="vertical"
+            aria-hidden="true"
+            data-orientation="vertical"
+            data-melt-separator=""
+            data-separator-root=""
+            class="shrink-0 bg-border h-full w-[1px] mx-5 hidden md:flex"
+          ></div>
+          <button
+            aria-haspopup="dialog"
+            aria-expanded="false"
+            type="button"
+            data-melt-dialog-trigger=""
+            data-dialog-trigger=""
+            class="items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 hidden md:flex"
+          >
+            <h1>Login</h1>
+          </button>
+        </div>
+      </div>
+      <div
+        role="none"
+        aria-hidden="true"
+        data-orientation="horizontal"
+        data-melt-separator=""
+        data-separator-root=""
+        class="shrink-0 bg-border h-[1px] w-full"
+      ></div>
+      <div class="flex flex-col p-5 gap-10">
+        <div class="flex flex-row items-center justify-end gap-5">
+          <input
+            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 focus:border-none max-w-sm"
+            placeholder="Search token address / name / symbol..."
+          />
+          <button
+            aria-controls="-wPxPKyMsW"
+            aria-expanded="false"
+            data-state="closed"
+            id="eW5MIwxExZ"
+            tabindex="0"
+            data-melt-dropdown-menu-trigger=""
+            data-menu-trigger=""
+            type="button"
+          >
+            <button
+              type="button"
+              tabindex="0"
+              class="inline-flex justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 gap-1 items-center"
+              data-button-root=""
+            >
+              <h1>Filter</h1>
+              <i class="bi bi-filter text-lg font-bold"></i>
+            </button>
+          </button>
+        </div>
+        <div class="grid md:grid-cols-3 xl:grid-cols-4 gap-5">
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0x0bcfdf5bd5c3a2ce66078b6595bc4aaa42554332"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>554332...554332</p></a
+              >
+              <p class="text-sm opacity-30">10 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">BitVenture AI</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">BIVE</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>1,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0xaae491e82e7a65aa064d2a9a21deb9069ac8f995"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x5c295e2383eb30d4950d7b7cc022adea372708e2"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0x0bcfdf5bd5c3a2ce66078b6595bc4aaa42554332&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0x0bcfdf5bd5c3a2ce66078b6595bc4aaa42554332"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0106676979</h1>
+                <h1>$10,667.7</h1>
+                <h1>4</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0xd33ca6fd43da7dfbcccd819afd625713eabe71e7"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>be71e7...be71e7</p></a
+              >
+              <p class="text-sm opacity-30">11 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">Merit Trading AI</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">MTAI</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>1,000,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x9a728461c65b34241c2c7de01b987ac8c5a6dc78"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x075d9f1202a0c9325f18589fc939c7a82726f461"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0xd33ca6fd43da7dfbcccd819afd625713eabe71e7&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0xd33ca6fd43da7dfbcccd819afd625713eabe71e7"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0000234193</h1>
+                <h1>$69.52</h1>
+                <h1>13</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0x534bc5e2c1f151a0af8c3d3f2c47ffd1dbbacbae"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>bacbae...bacbae</p></a
+              >
+              <p class="text-sm opacity-30">11 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">CraftChain</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">CCN</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">9</p>
+              </div>
+              <p>100,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x9bc972fa367ddfb2aa25d209e651b4e476595bb4"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x924b307ff1668cff6f73207ffd653f398d30c41c"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0x534bc5e2c1f151a0af8c3d3f2c47ffd1dbbacbae&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0x534bc5e2c1f151a0af8c3d3f2c47ffd1dbbacbae"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0001383286</h1>
+                <h1>$13,832.86</h1>
+                <h1>1</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0x33102bf7fe036277267866e271703f62b1af0f50"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>af0f50...af0f50</p></a
+              >
+              <p class="text-sm opacity-30">12 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">criminalpepe</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">criminalpepe</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">9</p>
+              </div>
+              <p>420,690,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0xc6d065e48fc3848328d3b8eefbe38f0068542d9c"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x81b09e4ed08652ed6f7b37b4801141dbc9539f79"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0x33102bf7fe036277267866e271703f62b1af0f50&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0x33102bf7fe036277267866e271703f62b1af0f50"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0000000141</h1>
+                <h1>$5,932.48</h1>
+                <h1>2</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0x5fae3af584495c5c2cbaa83740e55037a6633368"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>633368...633368</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">Gasless</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">Gasless</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>10,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x6f2a8e2b3af0ed910a55e9fdc287801fd5360327"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x1c9a25d1fb575cd19e33600f140c3514d50e30e5"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0x5fae3af584495c5c2cbaa83740e55037a6633368&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0x5fae3af584495c5c2cbaa83740e55037a6633368"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$1.9911713487</h1>
+                <h1>$19,911.71</h1>
+                <h1>2</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0xa4d607684e507e379ed9f1240caaf842b15a3985"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>5a3985...5a3985</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">TAU AI</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">TAU</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>100,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x5993f4f4d5c2eb0622a18c49c7323aa9f422642f"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0xc902f9ae2ccadebf224eff59270d8cb632f768d2"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0xa4d607684e507e379ed9f1240caaf842b15a3985&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0xa4d607684e507e379ed9f1240caaf842b15a3985"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0000750955</h1>
+                <h1>$7,509.55</h1>
+                <h1>3</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0x738593e401a64145a3022ef4b3d4b2d842d7c25a"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>d7c25a...d7c25a</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">BobaWifDonut</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">Wif</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">9</p>
+              </div>
+              <p>1,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x000ae1e2ba3624208300605d7919d6c4803c6111"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0xd4570de2fa615a2e066b1bc9a3f4f912a349244b"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0x738593e401a64145a3022ef4b3d4b2d842d7c25a&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0x738593e401a64145a3022ef4b3d4b2d842d7c25a"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0176065982</h1>
+                <h1>$17,606.6</h1>
+                <h1>5</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0x69ef351b759e999d9a001807f5b3f96e5078d179"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>78d179...78d179</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">Blocktensor</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">BAO</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>1,000,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0xb83836c05893548bb450ed10e5aa722287e9f21f"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0xc5da57da32d224ea7dad248e45955e0793b1a065"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0x69ef351b759e999d9a001807f5b3f96e5078d179&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0x69ef351b759e999d9a001807f5b3f96e5078d179"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0000121279</h1>
+                <h1>$12,127.88</h1>
+                <h1>3</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0xd561a593d9dd8b9a0e3a487dfb517c9371d6dda7"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>d6dda7...d6dda7</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">MeowMeme</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">$MEOW</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>952,630,118.58</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x81a8ee8a2070a8756d810ebc6b21bbc41cae037d"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x64fddea01e9763157a31845e2e7efa86ed58f952"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0xd561a593d9dd8b9a0e3a487dfb517c9371d6dda7&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0xd561a593d9dd8b9a0e3a487dfb517c9371d6dda7"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0001182491</h1>
+                <h1>$351.15</h1>
+                <h1>2</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0xa4633b5f103c968dad7c630c73248e3558a820eb"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>a820eb...a820eb</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">Never Went to Therapy</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">NWTT</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">9</p>
+              </div>
+              <p>10,000,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x947ba15d0c9ec51057b1061297da112ecfd6af25"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x101c2711984a03b2b1182ff21808035151f0c585"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0xa4633b5f103c968dad7c630c73248e3558a820eb&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0xa4633b5f103c968dad7c630c73248e3558a820eb"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0000008065</h1>
+                <h1>$8,064.52</h1>
+                <h1>4</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0xe6f4a40156c9e8c7addda66848bbb99fdedecf84"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>decf84...decf84</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">DeTensor</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">DETENSOR</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>100,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0xa0d94602971af00ca80dc8ef773dcfa7f0fe4a88"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x35ca6a41252f7e0bccdc1d7b2d5b6e2e35a7b483"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0xe6f4a40156c9e8c7addda66848bbb99fdedecf84&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0xe6f4a40156c9e8c7addda66848bbb99fdedecf84"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0063631895</h1>
+                <h1>$18,895.9</h1>
+                <h1>1</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0x7da61c4dd212224aa12816ccda00921301293b48"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>293b48...293b48</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">Pepe The Frog</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">PEPE</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>1,000,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x6cf5ee4affa7a6c8cc5d36405be0ed02c05b2caa"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0xca62508343b67cd6966cbc1c9ac7e4f1250d3198"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0x7da61c4dd212224aa12816ccda00921301293b48&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0x7da61c4dd212224aa12816ccda00921301293b48"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0000080888</h1>
+                <h1>$8,088.84</h1>
+                <h1>13</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0x76bc1ae0262340a71795de91bdf9ae77acf29a7c"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>f29a7c...f29a7c</p></a
+              >
+              <p class="text-sm opacity-30">13 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">Taiyokei</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">TYKI</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>2,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x2140dc23131d00c6a9ce826d8b19870371b05f62"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0xe1dacef45f6101a1f0b1c4313c1e7583d0addde5"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0x76bc1ae0262340a71795de91bdf9ae77acf29a7c&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0x76bc1ae0262340a71795de91bdf9ae77acf29a7c"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$2.0520413424</h1>
+                <h1>$4,104.08</h1>
+                <h1>1</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0xf91e91f328f571ce297549ae319c1a3c2542dac4"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>42dac4...42dac4</p></a
+              >
+              <p class="text-sm opacity-30">14 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">Long AI</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">LONGAI</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>100,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x9a31f10503cddef78813ed3ae691fee74107f1d5"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x36315329460d34ff62cadf000c132948141eed8b"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0xf91e91f328f571ce297549ae319c1a3c2542dac4&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0xf91e91f328f571ce297549ae319c1a3c2542dac4"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0001310219</h1>
+                <h1>$389.02</h1>
+                <h1>1</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0xa06eb3e52dabf9aa7ff8ad1428b548c9a420aa20"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>20aa20...20aa20</p></a
+              >
+              <p class="text-sm opacity-30">14 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">STARBASE</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">STARBASE</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">9</p>
+              </div>
+              <p>42,069,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x790f4592e31224607deedba1f4a564ab43586e1f"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0xfe6fdcc4cd119630049ba8dbe0ac64773d2b1cb3"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0xa06eb3e52dabf9aa7ff8ad1428b548c9a420aa20&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0xa06eb3e52dabf9aa7ff8ad1428b548c9a420aa20"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0000001210</h1>
+                <h1>$5,089.55</h1>
+                <h1>1</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5 p-5 rounded-md border-2">
+            <div class="flex flex-row items-center justify-between gap-5">
+              <a
+                href="https://etherscan.io/token/0xc4bcb4e990ba2a26c13e43738aa38c5ebf1662f9"
+                target="_blank"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-primary hover:bg-primary/80 border-transparent text-primary-foreground"
+                ><p>1662f9...1662f9</p></a
+              >
+              <p class="text-sm opacity-30">15 hours ago</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h1 class="text-lg font-semibold">GoldLaunch AI</h1>
+              <div class="flex flex-row items-center gap-2">
+                <p class="text-sm opacity-50">GDL</p>
+                <div
+                  role="none"
+                  aria-orientation="vertical"
+                  aria-hidden="true"
+                  data-orientation="vertical"
+                  data-melt-separator=""
+                  data-separator-root=""
+                  class="shrink-0 bg-border h-full w-[1px]"
+                ></div>
+                <p class="text-sm opacity-50">18</p>
+              </div>
+              <p>100,000,000</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+              <a
+                href="https://etherscan.io/address/0x256fbac8fe2b937c81c41ea717a433eef3e309e2"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Sniper</a
+              >
+              <a
+                href="https://etherscan.io/address/0x52e58576133c44c396ddae455cd89f47c6bf2060"
+                class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none select-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+                >Pair</a
+              >
+            </div>
+            <div class="flex flex-row items-center gap-5 w-full">
+              <a
+                href="/chart?address=0xc4bcb4e990ba2a26c13e43738aa38c5ebf1662f9&amp;router=Banana"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Chart</a
+              >
+              <a
+                href="/swap?token=0xc4bcb4e990ba2a26c13e43738aa38c5ebf1662f9"
+                tabindex="0"
+                class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 w-full"
+                target="_self"
+                data-button-root=""
+                >Swap</a
+              >
+            </div>
+            <div
+              role="none"
+              aria-hidden="true"
+              data-orientation="horizontal"
+              data-melt-separator=""
+              data-separator-root=""
+              class="shrink-0 bg-border h-[1px] w-full"
+            ></div>
+            <div class="flex flex-row items-baseline justify-between gap-5">
+              <div class="flex flex-col gap-1 text-sm opacity-50">
+                <h1>Price</h1>
+                <h1>Mcap</h1>
+                <h1>Snipers Detected</h1>
+              </div>
+              <div class="flex flex-col gap-1 text-sm opacity-50 text-right">
+                <h1>$0.0003436821</h1>
+                <h1>$1,020.46</h1>
+                <h1>16</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row items-center gap-5 self-end">
+          <p class="text-sm opacity-30">1 of 5</p>
+          <button
+            class="inline-flex items-center justify-center rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2"
+          >
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+      <div
+        id="svelte-announcer"
+        aria-live="assertive"
+        aria-atomic="true"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          clip: rect(0px, 0px, 0px, 0px);
+          clip-path: inset(50%);
+          overflow: hidden;
+          white-space: nowrap;
+          width: 1px;
+          height: 1px;
+        "
+      ></div>
+    </div>
+
+    <script src="https://telegram.org/js/telegram-widget.js?22"></script>
+
+    <div
+      data-portal=""
+      data-melt-dialog-portalled=""
+      data-dialog-portal=""
+    ></div>
+    <div
+      data-portal=""
+      data-melt-dialog-portalled=""
+      data-dialog-portal=""
+    ></div>
+  </body>
+</html>
